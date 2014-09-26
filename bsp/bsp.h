@@ -14,7 +14,7 @@ void led_on(uint8_t led);
  * @param led Led a apagar
  */
 void led_off(uint8_t led);
-
+void led_toggle(uint8_t led);
 /**
  * @brief Delay por software
  */
