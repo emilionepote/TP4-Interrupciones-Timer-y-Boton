@@ -24,5 +24,6 @@ uint8_t sw_getState();
  * @brief Inicializacion de los servicios de BSP
  */
 void bsp_init();
+void bsp_delayMS(uint16_t x);
 
 #endif

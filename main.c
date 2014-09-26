@@ -23,7 +23,8 @@ int main(void) {
 	bsp_init();
 
 	while (1) {
-
+        bsp_delayMS(10);
+        led_toggle(2);
 	}
 }
 
